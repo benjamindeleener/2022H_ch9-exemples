@@ -4,9 +4,12 @@ from time import time
 def some_function():
     some_list = [i for i in range(10000)]
 
+    
     new_list = []
     for elem in some_list:
         new_list.append([i for i in range(elem)])
+        
+    # Hello
 
 
 if __name__ == "__main__":
